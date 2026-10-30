@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="SUTI: glosario bilingüe de terminología minera. Consultá términos en inglés y español, incluso sin conexión.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/suti-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>SUTI — Glosario minero</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="SUTI, inicio"><span class="brand-mark">SUTI<span>.</span></span></a>
+      <div class="topbar-right"><span id="connection" class="connection"><i></i><span>Conectado</span></span><button class="icon-button" id="aboutButton" aria-label="Acerca de SUTI">i</button></div>
+    </header>
+
+    <main id="mainContent">
+      <section id="homeView" class="view active" aria-labelledby="heroTitle">
+        <div class="hero">
+          <p class="eyebrow">GLOSARIO BILINGÜE MINERO</p>
+          <h1 id="heroTitle">Entendé la minería<br>en <span>inglés.</span></h1>
+          <p class="hero-copy">Encontrá términos, comprendé su significado y aprendé a utilizarlos en el trabajo.</p>
+          <form id="homeSearchForm" class="search-box hero-search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+            <input id="homeSearch" type="search" placeholder="Buscar término en inglés..." autocomplete="off" aria-label="Buscar término en inglés">
+            <button type="submit" aria-label="Buscar">↵</button>
+          </form>
+          <p class="search-hint">Escribí un término en inglés y presioná Enter.</p>
+        </div>
+        <div class="home-section">
+          <div class="section-heading"><div><p class="eyebrow">DESCUBRÍ</p><h2>Explorá por área</h2></div><button class="text-link" data-go="explorar">Ver todas <span>↗</span></button></div>
+          <div id="homeAreas" class="area-grid"></div>
+        </div>
+        <div class="home-note"><span class="note-symbol">✳</span><div><strong>Hecho para el trabajo en minería.</strong><p>Consultá el glosario en el sitio o en zonas sin conexión, una vez que se haya cargado en tu dispositivo.</p></div></div>
+      </section>
+
+      <section id="searchView" class="view" aria-labelledby="searchTitle">
+        <div class="page-intro"><p class="eyebrow">GLOSARIO</p><h1 id="searchTitle">Buscar términos<span>.</span></h1><p>Encontrá rápidamente palabras y expresiones utilizadas en minería.</p></div>
+        <form id="searchForm" class="search-box page-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="searchInput" type="search" placeholder="Escribí un término en inglés..." autocomplete="off" aria-label="Buscar término en inglés"><button type="submit">Buscar</button></form>
+        <div class="results-head"><span id="resultsCount">250 términos disponibles</span><span class="sort-label">Relevancia ↓</span></div>
+        <div id="resultsList" class="results-list"></div>
+      </section>
+
+      <section id="exploreView" class="view" aria-labelledby="exploreTitle">
+        <div class="page-intro"><p class="eyebrow">EXPLORAR</p><h1 id="exploreTitle">Conocé el vocabulario<span>.</span></h1><p>Recorré el glosario por áreas mineras o encontrá términos asociados a tareas operativas.</p></div>
+        <div class="explore-block"><div class="section-heading"><div><p class="eyebrow">ORGANIZACIÓN DEL GLOSARIO</p><h2>Áreas mineras</h2></div><span class="count-pill" id="areaCount"></span></div><div id="allAreas" class="area-list"></div></div>
+        <div class="explore-block tasks-block"><div class="section-heading"><div><p class="eyebrow">POR ACTIVIDAD</p><h2>Tareas operativas</h2></div><span class="soon-label">EN PREPARACIÓN</span></div><form id="taskSearchForm" class="search-box task-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="taskSearch" type="search" placeholder="Buscar una tarea operativa..." aria-label="Buscar una tarea operativa" disabled><span class="lock-icon">◌</span></form><p class="task-note">Estamos preparando el índice de tareas y validando su relación con los términos del glosario. Preferimos no mostrar asociaciones que todavía no estén verificadas.</p></div>
+      </section>
+
+      <section id="areaView" class="view" aria-labelledby="areaTitle"><button class="back-link" data-go="explorar">← Volver a explorar</button><div class="page-intro"><p class="eyebrow">ÁREA MINERA</p><h1 id="areaTitle">Área<span>.</span></h1><p id="areaDescription"></p></div><div class="results-head"><span id="areaResultsCount"></span><span class="sort-label">Orden alfabético</span></div><div id="areaResults" class="results-list"></div></section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button class="nav-item active" data-view="inicio"><span class="nav-icon">⌂</span><span>Inicio</span></button>
+      <button class="nav-item" data-view="explorar"><span class="nav-icon">▦</span><span>Explorar</span></button>
+      <button class="nav-item" data-view="buscar"><span class="nav-icon">⌕</span><span>Buscar</span></button>
+    </nav>
+  </div>
+
+  <dialog id="aboutDialog" class="about-dialog"><button class="dialog-close" id="closeAbout" aria-label="Cerrar">×</button><p class="eyebrow">SOBRE EL PROYECTO</p><h2>SUTI<span>.</span></h2><p>Un glosario bilingüe de terminología minera para acercar el inglés técnico al trabajo cotidiano.</p><p class="dialog-small">Versión inicial de prueba · 250 términos · Contenido en revisión.</p></dialog>
+  <script src="app.js"></script>
+</body>
+</html>

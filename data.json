@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "english": "Ore",
+    "spanish": "Mena / Mineral económico",
+    "pronunciation": "ore",
+    "exampleEn": "The ore grade increases toward the center of the deposit.",
+    "exampleEs": "La ley del mineral aumenta hacia el centro del yacimiento.",
+    "context": "Roca con mineral explotable (Cu, Au, Li)",
+    "area": "Geología"
+  },
+  {
+    "id": 2,
+    "english": "Orebody",
+    "spanish": "Cuerpo mineralizado",
+    "pronunciation": "orebodi",
+    "exampleEn": "The orebody dips 60 degrees to the east.",
+    "exampleEs": "El cuerpo mineralizado tiene un manteo de 60 grados hacia el este.",
+    "context": "Geometría del yacimiento",
+    "area": "Geología"
+  },
+  {
+    "id": 3,
+    "english": "Deposit",
+    "spanish": "Yacimiento",
+    "pronunciation": "deposit",
+    "exampleEn": "This porphyry copper deposit will be mined by open pit.",
+    "exampleEs": "Este yacimiento de cobre porfídico se explotará a rajo abierto.",
+    "context": "Descripción general del proyecto",
+    "area": "Geología"
+  },
+  {
+    "id": 4,
+    "english": "Porphyry",
+    "spanish": "Pórfido",
+    "pronunciation": "porfiri",
+    "exampleEn": "Most large copper pits are hosted in porphyry systems.",
+    "exampleEs": "La mayoría de los grandes rajos de cobre están en sistemas porfídicos.",
+    "context": "Yacimientos de cobre y oro",
+    "area": "Geología"
+  },
+  {
+    "id": 5,
+    "english": "Pegmatite",
+    "spanish": "Pegmatita",
+    "pronunciation": "pegmatite",
+    "exampleEn": "The lithium is hosted in a zoned pegmatite.",
+    "exampleEs": "El litio se encuentra en una pegmatita zonada.",
+    "context": "Litio en roca dura",
+    "area": "Geología"
+  },
+  {
+    "id": 6,
+    "english": "Spodumene",
+    "spanish": "Espodumeno",
+    "pronunciation": "spodumene",
+    "exampleEn": "The plant produces spodumene concentrate.",
+    "exampleEs": "La planta produce concentrado de espodumeno.",
+    "context": "Principal mineral de litio en roca dura",
+    "area": "Geología"
+  },
+  {
+    "id": 7,
+    "english": "Brine",
+    "spanish": "Salmuera",
+    "pronunciation": "brine",
+    "exampleEn": "Lithium is recovered from brine in the salt flat.",
+    "exampleEs": "El litio se recupera de la salmuera del salar.",
+    "context": "Litio en salares (operación superficial, no es rajo)",
+    "area": "Geología"
+  },
+  {
+    "id": 8,
+    "english": "Gangue",
+    "spanish": "Ganga",
+    "pronunciation": "gangu",
+    "exampleEn": "Quartz is the main gangue mineral in this deposit.",
+    "exampleEs": "El cuarzo es el principal mineral de ganga de este yacimiento.",
+    "context": "Mineral sin valor asociado a la mena",
+    "area": "Geología"
+  },
+  {
+    "id": 9,
+    "english": "Host rock",
+    "spanish": "Roca huésped / Roca encajonante",
+    "pronunciation": "jost rokk",
+    "exampleEn": "The gold occurs in a sedimentary host rock.",
+    "exampleEs": "El oro se presenta en una roca huésped sedimentaria.",
+    "context": "Mapeo geológico",
+    "area": "Geología"
+  },
+  {
+    "id": 10,
+    "english": "Alteration",
+    "spanish": "Alteración",
+    "pronunciation": "alterasjon",
+    "exampleEn": "Phyllic alteration is mapped around the intrusion.",
+    "exampleEs": "Se mapeó alteración fílica alrededor de la intrusión.",
+    "context": "Mapeo y modelo geológico",
+    "area": "Geología"
+  },
+  {
+    "id": 11,
+    "english": "Outcrop",
+    "spanish": "Afloramiento",
+    "pronunciation": "autkrop",
+    "exampleEn": "Geologists sampled the outcrop before drilling.",
+    "exampleEs": "Los geólogos muestrearon el afloramiento antes de perforar.",
+    "context": "Exploración de superficie",
+    "area": "Geología"
+  },
+  {
+    "id": 12,
+    "english": "Fault",
+    "spanish": "Falla",
+    "pronunciation": "fault",
+    "exampleEn": "A major fault displaces the orebody.",
+    "exampleEs": "Una falla mayor desplaza el cuerpo mineralizado.",
+    "context": "Modelo estructural",
+    "area": "Geología"
+  },
+  {
+    "id": 13,
+    "english": "Vein",
+    "spanish": "Veta / Vetilla",
+    "pronunciation": "vein",
+    "exampleEn": "Gold-bearing quartz veins cut the andesite.",
+    "exampleEs": "Las vetas de cuarzo con oro cortan la andesita.",
+    "context": "Yacimientos de oro y cobre",
+    "area": "Geología"
+  },
+  {
+    "id": 14,
+    "english": "Mineralization",
+    "spanish": "Mineralización",
+    "pronunciation": "mineralizasjon",
+    "exampleEn": "Copper mineralization extends below the pit floor.",
+    "exampleEs": "La mineralización de cobre continúa bajo el piso del rajo.",
+    "context": "Modelo geológico",
+    "area": "Geología"
+  },
+  {
+    "id": 15,
+    "english": "Grade",
+    "spanish": "Ley",
+    "pronunciation": "grade",
+    "exampleEn": "The average copper grade is 0.6 percent.",
+    "exampleEs": "La ley media de cobre es de 0,6 por ciento.",
+    "context": "Concentración del metal en la roca",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 16,
+    "english": "Cut-off grade",
+    "spanish": "Ley de corte",
+    "pronunciation": "kut-off grade",
+    "exampleEn": "Material below the cut-off grade is sent to the waste dump.",
+    "exampleEs": "El material bajo la ley de corte se envía al botadero de estéril.",
+    "context": "Define qué es mena y qué es estéril",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 17,
+    "english": "Mineral resource",
+    "spanish": "Recurso mineral",
+    "pronunciation": "mineral resaurke",
+    "exampleEn": "The mineral resource was updated after the infill drilling.",
+    "exampleEs": "El recurso mineral se actualizó tras la perforación de relleno.",
+    "context": "Reporte según códigos (JORC, NI 43-101)",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 18,
+    "english": "Ore reserve",
+    "spanish": "Reserva de mineral",
+    "pronunciation": "ore reserve",
+    "exampleEn": "The ore reserve supports a 20-year mine life.",
+    "exampleEs": "La reserva de mineral sostiene una vida de mina de 20 años.",
+    "context": "Parte económica del recurso",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 19,
+    "english": "Measured resource",
+    "spanish": "Recurso medido",
+    "pronunciation": "misured resaurke",
+    "exampleEn": "Only measured resources were used in the first stage.",
+    "exampleEs": "En la primera etapa solo se usaron recursos medidos.",
+    "context": "Categoría de mayor confianza",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 20,
+    "english": "Indicated resource",
+    "spanish": "Recurso indicado",
+    "pronunciation": "indikated resaurke",
+    "exampleEn": "The indicated resource is the base of the pit design.",
+    "exampleEs": "El recurso indicado es la base del diseño del rajo.",
+    "context": "Categoría intermedia",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 21,
+    "english": "Inferred resource",
+    "spanish": "Recurso inferido",
+    "pronunciation": "inferred resaurke",
+    "exampleEn": "Inferred resources cannot be converted to reserves yet.",
+    "exampleEs": "Los recursos inferidos aún no pueden convertirse en reservas.",
+    "context": "Categoría de menor confianza",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 22,
+    "english": "Block model",
+    "spanish": "Modelo de bloques",
+    "pronunciation": "blokk model",
+    "exampleEn": "The block model was built from 5,000 drill holes.",
+    "exampleEs": "El modelo de bloques se construyó con 5.000 sondajes.",
+    "context": "Base de la planificación minera",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 23,
+    "english": "Drill core",
+    "spanish": "Testigo de perforación",
+    "pronunciation": "drill kore",
+    "exampleEn": "The drill core was logged and split in half.",
+    "exampleEs": "El testigo de perforación se registró y se cortó por la mitad.",
+    "context": "Exploración con diamantina",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 24,
+    "english": "Assay",
+    "spanish": "Ensayo químico",
+    "pronunciation": "assei",
+    "exampleEn": "The assay results confirmed high gold values.",
+    "exampleEs": "Los resultados del ensayo confirmaron valores altos de oro.",
+    "context": "Análisis de laboratorio de las muestras",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 25,
+    "english": "Kriging",
+    "spanish": "Kriging",
+    "pronunciation": "kriging",
+    "exampleEn": "Kriging was used to estimate grades in each block.",
+    "exampleEs": "Se usó kriging para estimar las leyes de cada bloque.",
+    "context": "Estimación geoestadística",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 26,
+    "english": "Tonnage",
+    "spanish": "Tonelaje",
+    "pronunciation": "tonnage",
+    "exampleEn": "The tonnage above cut-off is 150 million tonnes.",
+    "exampleEs": "El tonelaje sobre la ley de corte es de 150 millones de toneladas.",
+    "context": "Cantidad de material estimado",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 27,
+    "english": "Reconciliation",
+    "spanish": "Conciliación",
+    "pronunciation": "rekonkiliasjon",
+    "exampleEn": "Monthly reconciliation compares the model to plant results.",
+    "exampleEs": "La conciliación mensual compara el modelo con los resultados de la planta.",
+    "context": "Compara modelo, mina y planta",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 28,
+    "english": "Grade control",
+    "spanish": "Control de leyes",
+    "pronunciation": "grade kontrol",
+    "exampleEn": "Grade control crews mark ore and waste on each bench.",
+    "exampleEs": "Los equipos de control de leyes marcan mineral y estéril en cada banco.",
+    "context": "Clasificación diaria mena/estéril",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 29,
+    "english": "Slope stability",
+    "spanish": "Estabilidad de taludes",
+    "pronunciation": "slope stabiliti",
+    "exampleEn": "Slope stability studies define the final pit angle.",
+    "exampleEs": "Los estudios de estabilidad de taludes definen el ángulo final del rajo.",
+    "context": "Diseño de paredes del rajo",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 30,
+    "english": "Rock mass",
+    "spanish": "Macizo rocoso",
+    "pronunciation": "rokk mass",
+    "exampleEn": "The rock mass is weaker near the fault zone.",
+    "exampleEs": "El macizo rocoso es más débil cerca de la zona de falla.",
+    "context": "Caracterización geotécnica",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 31,
+    "english": "Factor of safety",
+    "spanish": "Factor de seguridad",
+    "pronunciation": "faktor of safeti",
+    "exampleEn": "The design requires a factor of safety above 1.3.",
+    "exampleEs": "El diseño exige un factor de seguridad superior a 1,3.",
+    "context": "Criterio de diseño de taludes",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 32,
+    "english": "Pore pressure",
+    "spanish": "Presión de poros",
+    "pronunciation": "pore pressure",
+    "exampleEn": "High pore pressure reduces the strength of the wall.",
+    "exampleEs": "La alta presión de poros reduce la resistencia de la pared.",
+    "context": "Agua dentro de la roca",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 33,
+    "english": "Piezometer",
+    "spanish": "Piezómetro",
+    "pronunciation": "piezometer",
+    "exampleEn": "A piezometer was installed behind the east wall.",
+    "exampleEs": "Se instaló un piezómetro detrás de la pared este.",
+    "context": "Monitoreo de presión de agua",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 34,
+    "english": "Discontinuity",
+    "spanish": "Discontinuidad",
+    "pronunciation": "diskontinuiti",
+    "exampleEn": "Discontinuities control the failure of the bench face.",
+    "exampleEs": "Las discontinuidades controlan la falla de la cara del banco.",
+    "context": "Fracturas, diaclasas, fallas",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 35,
+    "english": "Joint",
+    "spanish": "Diaclasa",
+    "pronunciation": "yoint",
+    "exampleEn": "The joint spacing is about half a meter.",
+    "exampleEs": "El espaciamiento de las diaclasas es de unos 50 centímetros.",
+    "context": "Mapeo estructural",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 36,
+    "english": "Planar failure",
+    "spanish": "Falla planar",
+    "pronunciation": "planar feilure",
+    "exampleEn": "A planar failure occurred along a bedding plane.",
+    "exampleEs": "Ocurrió una falla planar a lo largo de un plano de estratificación.",
+    "context": "Tipo de inestabilidad",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 37,
+    "english": "Wedge failure",
+    "spanish": "Falla en cuña",
+    "pronunciation": "uedge feilure",
+    "exampleEn": "Two intersecting joints created a wedge failure.",
+    "exampleEs": "Dos diaclasas que se intersectan generaron una falla en cuña.",
+    "context": "Tipo de inestabilidad",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 38,
+    "english": "Toppling",
+    "spanish": "Volcamiento",
+    "pronunciation": "toppling",
+    "exampleEn": "Toppling risk is high in steep, layered rock.",
+    "exampleEs": "El riesgo de volcamiento es alto en roca estratificada y de gran pendiente.",
+    "context": "Tipo de inestabilidad",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 39,
+    "english": "Rockfall",
+    "spanish": "Caída de rocas",
+    "pronunciation": "rokkfall",
+    "exampleEn": "Catch benches reduce the rockfall hazard.",
+    "exampleEs": "Los bancos de contención reducen el peligro de caída de rocas.",
+    "context": "Riesgo en paredes del rajo",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 40,
+    "english": "Slope stability radar",
+    "spanish": "Radar de estabilidad de taludes",
+    "pronunciation": "slope stabiliti radar",
+    "exampleEn": "The slope stability radar alarmed before the movement.",
+    "exampleEs": "El radar de estabilidad de taludes dio alarma antes del movimiento.",
+    "context": "Monitoreo en tiempo real",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 41,
+    "english": "Inclinometer",
+    "spanish": "Inclinómetro",
+    "pronunciation": "inklinometer",
+    "exampleEn": "The inclinometer detected movement at 30 meters depth.",
+    "exampleEs": "El inclinómetro detectó movimiento a 30 metros de profundidad.",
+    "context": "Instrumentación geotécnica",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 42,
+    "english": "Rock mass rating",
+    "spanish": "Clasificación geomecánica (RMR)",
+    "pronunciation": "rokk mass rating",
+    "exampleEn": "The rock mass rating was 55 in the upper benches.",
+    "exampleEs": "La clasificación geomecánica RMR fue 55 en los bancos superiores.",
+    "context": "Clasificación del macizo",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 43,
+    "english": "Blasthole",
+    "spanish": "Pozo de tronadura",
+    "pronunciation": "blaszole",
+    "exampleEn": "Each blasthole is 15 meters deep.",
+    "exampleEs": "Cada pozo de tronadura tiene 15 metros de profundidad.",
+    "context": "Perforación de producción",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 44,
+    "english": "Drill rig",
+    "spanish": "Perforadora / Equipo de perforación",
+    "pronunciation": "drill rig",
+    "exampleEn": "The drill rig moved to the next pattern.",
+    "exampleEs": "La perforadora se movió a la siguiente malla.",
+    "context": "Equipo principal de perforación",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 45,
+    "english": "Drill bit",
+    "spanish": "Broca / Tricono",
+    "pronunciation": "drill bit",
+    "exampleEn": "The drill bit was replaced after 3,000 meters.",
+    "exampleEs": "La broca se cambió después de 3.000 metros.",
+    "context": "Consumible de perforación",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 46,
+    "english": "Drill pattern",
+    "spanish": "Malla de perforación",
+    "pronunciation": "drill pattern",
+    "exampleEn": "The drill pattern was tightened in hard rock.",
+    "exampleEs": "La malla de perforación se cerró en roca dura.",
+    "context": "Diseño de la tronadura",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 47,
+    "english": "Burden",
+    "spanish": "Burden / Piedra",
+    "pronunciation": "burden",
+    "exampleEn": "The burden is the distance to the free face.",
+    "exampleEs": "El burden es la distancia hasta la cara libre.",
+    "context": "Parámetro de diseño de la malla",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 48,
+    "english": "Spacing",
+    "spanish": "Espaciamiento",
+    "pronunciation": "spaking",
+    "exampleEn": "Spacing between holes is 8 meters.",
+    "exampleEs": "El espaciamiento entre pozos es de 8 metros.",
+    "context": "Parámetro de diseño de la malla",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 49,
+    "english": "Stemming",
+    "spanish": "Taco / Retacado",
+    "pronunciation": "stemming",
+    "exampleEn": "Poor stemming caused flyrock.",
+    "exampleEs": "Un mal taco provocó proyección de rocas.",
+    "context": "Material que sella el pozo",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 50,
+    "english": "ANFO",
+    "spanish": "ANFO (nitrato de amonio y petróleo)",
+    "pronunciation": "anfo",
+    "exampleEn": "ANFO is loaded in dry blastholes.",
+    "exampleEs": "El ANFO se carga en pozos secos.",
+    "context": "Explosivo de uso común",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 51,
+    "english": "Emulsion explosive",
+    "spanish": "Explosivo emulsión",
+    "pronunciation": "emulsjon eksplosive",
+    "exampleEn": "Emulsion explosive is used in wet holes.",
+    "exampleEs": "El explosivo emulsión se usa en pozos con agua.",
+    "context": "Explosivo resistente al agua",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 52,
+    "english": "Detonator",
+    "spanish": "Detonador",
+    "pronunciation": "detonator",
+    "exampleEn": "Each hole has an electronic detonator.",
+    "exampleEs": "Cada pozo lleva un detonador electrónico.",
+    "context": "Iniciación de la tronadura",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 53,
+    "english": "Booster",
+    "spanish": "Booster / Cebo",
+    "pronunciation": "buster",
+    "exampleEn": "The booster initiates the main explosive charge.",
+    "exampleEs": "El booster inicia la carga explosiva principal.",
+    "context": "Iniciación de la columna explosiva",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 54,
+    "english": "Powder factor",
+    "spanish": "Factor de carga",
+    "pronunciation": "pauder faktor",
+    "exampleEn": "A higher powder factor improves fragmentation.",
+    "exampleEs": "Un mayor factor de carga mejora la fragmentación.",
+    "context": "Kg de explosivo por tonelada",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 55,
+    "english": "Fragmentation",
+    "spanish": "Fragmentación",
+    "pronunciation": "fragmentasjon",
+    "exampleEn": "Good fragmentation increases shovel productivity.",
+    "exampleEs": "Una buena fragmentación aumenta la productividad de la pala.",
+    "context": "Tamaño de la roca tronada",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 56,
+    "english": "Misfire",
+    "spanish": "Tiro quedado / Falla de tronadura",
+    "pronunciation": "misfire",
+    "exampleEn": "The misfire was reported and secured immediately.",
+    "exampleEs": "El tiro quedado se reportó y se aseguró de inmediato.",
+    "context": "Seguridad en tronadura",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 57,
+    "english": "Presplit",
+    "spanish": "Precorte",
+    "pronunciation": "presplit",
+    "exampleEn": "Presplit holes protect the final pit wall.",
+    "exampleEs": "Los pozos de precorte protegen la pared final del rajo.",
+    "context": "Control de paredes finales",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 58,
+    "english": "Subdrilling",
+    "spanish": "Sobreperforación",
+    "pronunciation": "subdrilling",
+    "exampleEn": "Subdrilling ensures the bench floor is broken evenly.",
+    "exampleEs": "La sobreperforación asegura que el piso del banco se rompa de forma pareja.",
+    "context": "Perforación bajo el piso del banco",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 59,
+    "english": "Open pit",
+    "spanish": "Rajo abierto / Mina a cielo abierto",
+    "pronunciation": "open pit",
+    "exampleEn": "The open pit is 400 meters deep.",
+    "exampleEs": "El rajo abierto tiene 400 metros de profundidad.",
+    "context": "Método de explotación superficial",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 60,
+    "english": "Bench",
+    "spanish": "Banco",
+    "pronunciation": "benkj",
+    "exampleEn": "Ore is mined in 15-meter benches.",
+    "exampleEs": "El mineral se extrae en bancos de 15 metros.",
+    "context": "Nivel horizontal de explotación",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 61,
+    "english": "Bench height",
+    "spanish": "Altura de banco",
+    "pronunciation": "benkj jeit",
+    "exampleEn": "Bench height depends on equipment size.",
+    "exampleEs": "La altura de banco depende del tamaño de los equipos.",
+    "context": "Parámetro de diseño",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 62,
+    "english": "Bench face",
+    "spanish": "Cara del banco",
+    "pronunciation": "benkj fake",
+    "exampleEn": "The shovel loads rock from the bench face.",
+    "exampleEs": "La pala carga la roca desde la cara del banco.",
+    "context": "Superficie vertical del banco",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 63,
+    "english": "Berm",
+    "spanish": "Berma",
+    "pronunciation": "berm",
+    "exampleEn": "A safety berm stops vehicles from going over the edge.",
+    "exampleEs": "Una berma de seguridad evita que los vehículos caigan por el borde.",
+    "context": "Seguridad en caminos y bordes",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 64,
+    "english": "Catch bench",
+    "spanish": "Banco de contención",
+    "pronunciation": "katkj benkj",
+    "exampleEn": "Catch benches trap loose rock from above.",
+    "exampleEs": "Los bancos de contención atrapan las rocas sueltas que caen desde arriba.",
+    "context": "Diseño de paredes finales",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 65,
+    "english": "Crest",
+    "spanish": "Cresta",
+    "pronunciation": "krest",
+    "exampleEn": "Keep vehicles away from the crest of the bench.",
+    "exampleEs": "Mantenga los vehículos lejos de la cresta del banco.",
+    "context": "Borde superior del banco",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 66,
+    "english": "Toe",
+    "spanish": "Pie del banco",
+    "pronunciation": "to",
+    "exampleEn": "Loose material accumulated at the toe.",
+    "exampleEs": "Se acumuló material suelto en el pie del banco.",
+    "context": "Base del banco",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 67,
+    "english": "Highwall",
+    "spanish": "Pared alta / Muro del rajo",
+    "pronunciation": "jaiuall",
+    "exampleEn": "The highwall is inspected after every blast.",
+    "exampleEs": "La pared alta se inspecciona después de cada tronadura.",
+    "context": "Pared del rajo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 68,
+    "english": "Overall slope angle",
+    "spanish": "Ángulo de talud global",
+    "pronunciation": "overall slope angle",
+    "exampleEn": "The overall slope angle is 42 degrees.",
+    "exampleEs": "El ángulo de talud global es de 42 grados.",
+    "context": "Diseño del rajo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 69,
+    "english": "Haul road",
+    "spanish": "Camino de acarreo",
+    "pronunciation": "jaul road",
+    "exampleEn": "Haul roads are watered to control dust.",
+    "exampleEs": "Los caminos de acarreo se riegan para controlar el polvo.",
+    "context": "Ruta de camiones",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 70,
+    "english": "Ramp",
+    "spanish": "Rampa",
+    "pronunciation": "ramp",
+    "exampleEn": "The main ramp has a 10 percent grade.",
+    "exampleEs": "La rampa principal tiene una pendiente de 10 por ciento.",
+    "context": "Acceso al fondo del rajo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 71,
+    "english": "Switchback",
+    "spanish": "Curva de retorno / Zigzag",
+    "pronunciation": "suitkjbakk",
+    "exampleEn": "Trucks slow down at each switchback.",
+    "exampleEs": "Los camiones reducen la velocidad en cada curva de retorno.",
+    "context": "Diseño de rampas",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 72,
+    "english": "Pushback",
+    "spanish": "Fase / Ampliación del rajo",
+    "pronunciation": "pusjbakk",
+    "exampleEn": "The second pushback starts next year.",
+    "exampleEs": "La segunda fase del rajo comienza el próximo año.",
+    "context": "Planificación por fases",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 73,
+    "english": "Pit limit",
+    "spanish": "Límite del rajo",
+    "pronunciation": "pit limit",
+    "exampleEn": "The final pit limit was optimized for a gold price.",
+    "exampleEs": "El límite final del rajo se optimizó para un precio del oro.",
+    "context": "Planificación y diseño",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 74,
+    "english": "Overburden",
+    "spanish": "Sobrecarga / Material de cobertura",
+    "pronunciation": "overburden",
+    "exampleEn": "Overburden is removed before mining the ore.",
+    "exampleEs": "La sobrecarga se retira antes de extraer el mineral.",
+    "context": "Material sobre el yacimiento",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 75,
+    "english": "Waste rock",
+    "spanish": "Roca estéril",
+    "pronunciation": "uaste rokk",
+    "exampleEn": "Waste rock goes to the dump.",
+    "exampleEs": "La roca estéril se envía al botadero.",
+    "context": "Material sin valor económico",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 76,
+    "english": "Waste dump",
+    "spanish": "Botadero / Escombrera",
+    "pronunciation": "uaste dump",
+    "exampleEn": "The waste dump is built in 30-meter lifts.",
+    "exampleEs": "El botadero se construye en capas de 30 metros.",
+    "context": "Depósito de estéril",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 77,
+    "english": "Strip ratio",
+    "spanish": "Razón estéril/mineral",
+    "pronunciation": "strip ratio",
+    "exampleEn": "The strip ratio is 2.5 tonnes of waste per tonne of ore.",
+    "exampleEs": "La razón estéril/mineral es de 2,5 toneladas de estéril por tonelada de mineral.",
+    "context": "Indicador clave de rajo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 78,
+    "english": "Pit floor",
+    "spanish": "Piso del rajo",
+    "pronunciation": "pit flur",
+    "exampleEn": "The shovel is working on the pit floor.",
+    "exampleEs": "La pala está trabajando en el piso del rajo.",
+    "context": "Fondo de la excavación",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 79,
+    "english": "Mine plan",
+    "spanish": "Plan minero",
+    "pronunciation": "mine plan",
+    "exampleEn": "The mine plan was approved for next year.",
+    "exampleEs": "El plan minero fue aprobado para el próximo año.",
+    "context": "Planificación de corto y largo plazo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 80,
+    "english": "Mine sequence",
+    "spanish": "Secuencia de explotación",
+    "pronunciation": "mine sekuenke",
+    "exampleEn": "The mine sequence prioritizes high-grade benches.",
+    "exampleEs": "La secuencia de explotación prioriza los bancos de mayor ley.",
+    "context": "Orden de extracción",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 81,
+    "english": "Crusher",
+    "spanish": "Chancador",
+    "pronunciation": "krusjer",
+    "exampleEn": "The crusher reduces rock size for the mill.",
+    "exampleEs": "El chancador reduce el tamaño de la roca para el molino.",
+    "context": "Reducción de tamaño primaria",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 82,
+    "english": "Primary crusher",
+    "spanish": "Chancador primario",
+    "pronunciation": "primari krusjer",
+    "exampleEn": "Haul trucks dump directly into the primary crusher.",
+    "exampleEs": "Los camiones descargan directamente en el chancador primario.",
+    "context": "Primera etapa de chancado",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 83,
+    "english": "Gyratory crusher",
+    "spanish": "Chancador giratorio",
+    "pronunciation": "giratori krusjer",
+    "exampleEn": "A gyratory crusher handles large copper ore tonnage.",
+    "exampleEs": "Un chancador giratorio maneja grandes tonelajes de mineral de cobre.",
+    "context": "Chancado primario de alto volumen",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 84,
+    "english": "Jaw crusher",
+    "spanish": "Chancador de mandíbulas",
+    "pronunciation": "yau krusjer",
+    "exampleEn": "A jaw crusher is common in smaller operations.",
+    "exampleEs": "El chancador de mandíbulas es común en operaciones más pequeñas.",
+    "context": "Chancado primario",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 85,
+    "english": "Cone crusher",
+    "spanish": "Chancador de cono",
+    "pronunciation": "kone krusjer",
+    "exampleEn": "The cone crusher produces the secondary product.",
+    "exampleEs": "El chancador de cono produce el producto secundario.",
+    "context": "Chancado secundario/terciario",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 86,
+    "english": "Run-of-mine ore",
+    "spanish": "Mineral ROM (tal como sale de mina)",
+    "pronunciation": "run-of-mine ore",
+    "exampleEn": "Run-of-mine ore is fed to the crusher.",
+    "exampleEs": "El mineral ROM se alimenta al chancador.",
+    "context": "Mineral sin procesar",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 87,
+    "english": "Stockpile",
+    "spanish": "Acopio / Pila de mineral",
+    "pronunciation": "stokkpile",
+    "exampleEn": "Low-grade ore is kept in a stockpile.",
+    "exampleEs": "El mineral de baja ley se mantiene en un acopio.",
+    "context": "Almacenamiento temporal de mineral",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 88,
+    "english": "SAG mill",
+    "spanish": "Molino SAG",
+    "pronunciation": "sag mill",
+    "exampleEn": "The SAG mill is the heart of the concentrator.",
+    "exampleEs": "El molino SAG es el corazón del concentrador.",
+    "context": "Molienda semiautógena",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 89,
+    "english": "Ball mill",
+    "spanish": "Molino de bolas",
+    "pronunciation": "ball mill",
+    "exampleEn": "The ball mill grinds the ore to fine particles.",
+    "exampleEs": "El molino de bolas muele el mineral hasta partículas finas.",
+    "context": "Molienda fina",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 90,
+    "english": "Mill liner",
+    "spanish": "Revestimiento del molino",
+    "pronunciation": "mill liner",
+    "exampleEn": "Mill liners are replaced every six months.",
+    "exampleEs": "Los revestimientos del molino se cambian cada seis meses.",
+    "context": "Desgaste y mantención",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 91,
+    "english": "Grinding media",
+    "spanish": "Medios de molienda",
+    "pronunciation": "grinding media",
+    "exampleEn": "Steel balls are the main grinding media.",
+    "exampleEs": "Las bolas de acero son el principal medio de molienda.",
+    "context": "Consumible de molienda",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 92,
+    "english": "Screen",
+    "spanish": "Harnero / Criba",
+    "pronunciation": "skrin",
+    "exampleEn": "The screen separates oversize material.",
+    "exampleEs": "El harnero separa el material sobretamaño.",
+    "context": "Clasificación por tamaño",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 93,
+    "english": "Hydrocyclone",
+    "spanish": "Hidrociclón",
+    "pronunciation": "jidrokiklone",
+    "exampleEn": "The hydrocyclone classifies the mill discharge.",
+    "exampleEs": "El hidrociclón clasifica la descarga del molino.",
+    "context": "Clasificación en circuito de molienda",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 94,
+    "english": "Throughput",
+    "spanish": "Capacidad de procesamiento / Tratamiento",
+    "pronunciation": "zrofput",
+    "exampleEn": "Plant throughput reached 80,000 tonnes per day.",
+    "exampleEs": "El tratamiento de la planta alcanzó 80.000 toneladas por día.",
+    "context": "Indicador de planta",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 95,
+    "english": "Flotation",
+    "spanish": "Flotación",
+    "pronunciation": "flotasjon",
+    "exampleEn": "Flotation recovers copper sulfides from the slurry.",
+    "exampleEs": "La flotación recupera los sulfuros de cobre desde la pulpa.",
+    "context": "Concentración de Cu y Au",
+    "area": "Concentración"
+  },
+  {
+    "id": 96,
+    "english": "Froth",
+    "spanish": "Espuma",
+    "pronunciation": "froz",
+    "exampleEn": "The froth carries the valuable minerals to the surface.",
+    "exampleEs": "La espuma lleva los minerales valiosos a la superficie.",
+    "context": "Celdas de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 97,
+    "english": "Collector",
+    "spanish": "Colector",
+    "pronunciation": "kollektor",
+    "exampleEn": "The collector makes the mineral surface hydrophobic.",
+    "exampleEs": "El colector hace hidrofóbica la superficie del mineral.",
+    "context": "Reactivo de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 98,
+    "english": "Frother",
+    "spanish": "Espumante",
+    "pronunciation": "frozer",
+    "exampleEn": "The frother stabilizes the air bubbles.",
+    "exampleEs": "El espumante estabiliza las burbujas de aire.",
+    "context": "Reactivo de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 99,
+    "english": "Depressant",
+    "spanish": "Depresante",
+    "pronunciation": "depressant",
+    "exampleEn": "A depressant prevents pyrite from floating.",
+    "exampleEs": "Un depresante evita que la pirita flote.",
+    "context": "Reactivo de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 100,
+    "english": "Concentrate",
+    "spanish": "Concentrado",
+    "pronunciation": "konkentrate",
+    "exampleEn": "Copper concentrate is shipped to the smelter.",
+    "exampleEs": "El concentrado de cobre se envía a la fundición.",
+    "context": "Producto de la flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 101,
+    "english": "Rougher",
+    "spanish": "Etapa rougher / Flotación primaria",
+    "pronunciation": "rofer",
+    "exampleEn": "The rougher bank recovers most of the copper.",
+    "exampleEs": "El banco rougher recupera la mayor parte del cobre.",
+    "context": "Circuito de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 102,
+    "english": "Cleaner",
+    "spanish": "Etapa cleaner / Limpieza",
+    "pronunciation": "kliner",
+    "exampleEn": "The cleaner stage increases the concentrate grade.",
+    "exampleEs": "La etapa cleaner aumenta la ley del concentrado.",
+    "context": "Circuito de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 103,
+    "english": "Scavenger",
+    "spanish": "Etapa scavenger / Barrido",
+    "pronunciation": "skavenger",
+    "exampleEn": "The scavenger recovers fine particles from tailings.",
+    "exampleEs": "La etapa scavenger recupera partículas finas de los relaves.",
+    "context": "Circuito de flotación",
+    "area": "Concentración"
+  },
+  {
+    "id": 104,
+    "english": "Thickener",
+    "spanish": "Espesador",
+    "pronunciation": "zikkener",
+    "exampleEn": "The thickener recovers water from the slurry.",
+    "exampleEs": "El espesador recupera agua de la pulpa.",
+    "context": "Separación sólido-líquido",
+    "area": "Concentración"
+  },
+  {
+    "id": 105,
+    "english": "Gravity separation",
+    "spanish": "Separación gravitacional",
+    "pronunciation": "graviti separasjon",
+    "exampleEn": "Gravity separation recovers coarse gold.",
+    "exampleEs": "La separación gravitacional recupera oro grueso.",
+    "context": "Concentración de oro",
+    "area": "Concentración"
+  },
+  {
+    "id": 106,
+    "english": "Dense media separation",
+    "spanish": "Separación en medio denso",
+    "pronunciation": "dense media separasjon",
+    "exampleEn": "Dense media separation upgrades spodumene ore.",
+    "exampleEs": "La separación en medio denso concentra el mineral de espodumeno.",
+    "context": "Concentración de litio en roca dura",
+    "area": "Concentración"
+  },
+  {
+    "id": 107,
+    "english": "Metallurgical recovery",
+    "spanish": "Recuperación metalúrgica",
+    "pronunciation": "metallurgikal rekoveri",
+    "exampleEn": "Metallurgical recovery was 88 percent last quarter.",
+    "exampleEs": "La recuperación metalúrgica fue de 88 por ciento el último trimestre.",
+    "context": "Indicador de rendimiento",
+    "area": "Concentración"
+  },
+  {
+    "id": 108,
+    "english": "Smelting",
+    "spanish": "Fundición",
+    "pronunciation": "smelting",
+    "exampleEn": "Smelting converts the concentrate into matte.",
+    "exampleEs": "La fundición convierte el concentrado en mata.",
+    "context": "Proceso a alta temperatura",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 109,
+    "english": "Smelter",
+    "spanish": "Fundición (planta)",
+    "pronunciation": "smelter",
+    "exampleEn": "The smelter buys concentrate from several mines.",
+    "exampleEs": "La fundición compra concentrado a varias minas.",
+    "context": "Planta de fundición",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 110,
+    "english": "Matte",
+    "spanish": "Mata",
+    "pronunciation": "matte",
+    "exampleEn": "Copper matte contains about 60 percent copper.",
+    "exampleEs": "La mata de cobre contiene cerca de 60 por ciento de cobre.",
+    "context": "Producto intermedio de fundición",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 111,
+    "english": "Slag",
+    "spanish": "Escoria",
+    "pronunciation": "slag",
+    "exampleEn": "Slag is skimmed from the furnace.",
+    "exampleEs": "La escoria se retira del horno.",
+    "context": "Subproducto de fundición",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 112,
+    "english": "Roasting",
+    "spanish": "Tostación",
+    "pronunciation": "roasting",
+    "exampleEn": "Roasting removes sulfur from the concentrate.",
+    "exampleEs": "La tostación elimina azufre del concentrado.",
+    "context": "Tratamiento térmico",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 113,
+    "english": "Converting",
+    "spanish": "Conversión",
+    "pronunciation": "konverting",
+    "exampleEn": "Converting removes iron and sulfur from the matte.",
+    "exampleEs": "La conversión elimina hierro y azufre de la mata.",
+    "context": "Etapa de fundición de cobre",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 114,
+    "english": "Calcination",
+    "spanish": "Calcinación",
+    "pronunciation": "kalkinasjon",
+    "exampleEn": "Calcination converts spodumene before acid roasting.",
+    "exampleEs": "La calcinación transforma el espodumeno antes del tostado ácido.",
+    "context": "Procesamiento de litio en roca dura",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 115,
+    "english": "Flash furnace",
+    "spanish": "Horno flash",
+    "pronunciation": "flasj furnake",
+    "exampleEn": "The flash furnace smelts fine concentrate quickly.",
+    "exampleEs": "El horno flash funde rápidamente el concentrado fino.",
+    "context": "Tecnología de fundición",
+    "area": "Pirometalurgia"
+  },
+  {
+    "id": 116,
+    "english": "Leaching",
+    "spanish": "Lixiviación",
+    "pronunciation": "likjing",
+    "exampleEn": "Leaching dissolves copper from oxide ore.",
+    "exampleEs": "La lixiviación disuelve el cobre del mineral oxidado.",
+    "context": "Cu óxidos, Au, Li",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 117,
+    "english": "Heap leach",
+    "spanish": "Lixiviación en pilas",
+    "pronunciation": "jip likj",
+    "exampleEn": "Heap leach is the main process for oxide ore.",
+    "exampleEs": "La lixiviación en pilas es el proceso principal para el mineral oxidado.",
+    "context": "Proceso común en minería de rajo",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 118,
+    "english": "Leach pad",
+    "spanish": "Cancha de lixiviación",
+    "pronunciation": "likj pad",
+    "exampleEn": "The leach pad is lined with HDPE.",
+    "exampleEs": "La cancha de lixiviación está revestida con HDPE.",
+    "context": "Base impermeable de la pila",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 119,
+    "english": "Dump leach",
+    "spanish": "Lixiviación en botaderos",
+    "pronunciation": "dump likj",
+    "exampleEn": "Low-grade material is processed by dump leach.",
+    "exampleEs": "El material de baja ley se procesa por lixiviación en botaderos.",
+    "context": "Material de baja ley",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 120,
+    "english": "Pregnant leach solution",
+    "spanish": "Solución rica (PLS)",
+    "pronunciation": "pregnant likj solusjon",
+    "exampleEn": "The pregnant leach solution flows to the SX plant.",
+    "exampleEs": "La solución rica fluye hacia la planta SX.",
+    "context": "Solución con metal disuelto",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 121,
+    "english": "Raffinate",
+    "spanish": "Refino",
+    "pronunciation": "raffinate",
+    "exampleEn": "Raffinate is returned to the heap.",
+    "exampleEs": "El refino vuelve a la pila.",
+    "context": "Solución empobrecida en SX",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 122,
+    "english": "Solvent extraction",
+    "spanish": "Extracción por solventes (SX)",
+    "pronunciation": "solvent ekstraksjon",
+    "exampleEn": "Solvent extraction purifies the copper solution.",
+    "exampleEs": "La extracción por solventes purifica la solución de cobre.",
+    "context": "Circuito SX-EW de cobre",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 123,
+    "english": "Sulfuric acid",
+    "spanish": "Ácido sulfúrico",
+    "pronunciation": "sulfurik akid",
+    "exampleEn": "Sulfuric acid consumption is a key cost.",
+    "exampleEs": "El consumo de ácido sulfúrico es un costo clave.",
+    "context": "Lixiviante del cobre",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 124,
+    "english": "Cyanide",
+    "spanish": "Cianuro",
+    "pronunciation": "kianide",
+    "exampleEn": "Cyanide is handled under strict safety controls.",
+    "exampleEs": "El cianuro se maneja bajo estrictos controles de seguridad.",
+    "context": "Lixiviante del oro",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 125,
+    "english": "Carbon-in-pulp",
+    "spanish": "Carbón en pulpa (CIP)",
+    "pronunciation": "karbon-in-pulp",
+    "exampleEn": "The CIP circuit recovers gold from the slurry.",
+    "exampleEs": "El circuito CIP recupera oro desde la pulpa.",
+    "context": "Recuperación de oro",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 126,
+    "english": "Elution",
+    "spanish": "Elución",
+    "pronunciation": "elusjon",
+    "exampleEn": "Elution strips gold from the loaded carbon.",
+    "exampleEs": "La elución desprende el oro del carbón cargado.",
+    "context": "Proceso del oro",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 127,
+    "english": "Tank leaching",
+    "spanish": "Lixiviación en estanques",
+    "pronunciation": "tank likjing",
+    "exampleEn": "Tank leaching gives faster recovery than heaps.",
+    "exampleEs": "La lixiviación en estanques logra una recuperación más rápida que las pilas.",
+    "context": "Lixiviación agitada",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 128,
+    "english": "Lixiviant",
+    "spanish": "Agente lixiviante",
+    "pronunciation": "liksiviant",
+    "exampleEn": "The lixiviant is applied at the top of the heap.",
+    "exampleEs": "El agente lixiviante se aplica en la parte superior de la pila.",
+    "context": "Solución que disuelve el metal",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 129,
+    "english": "Drip irrigation",
+    "spanish": "Riego por goteo",
+    "pronunciation": "drip irrigasjon",
+    "exampleEn": "Drip irrigation reduces evaporation on the heap.",
+    "exampleEs": "El riego por goteo reduce la evaporación en la pila.",
+    "context": "Aplicación de solución en pilas",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 130,
+    "english": "Ion exchange",
+    "spanish": "Intercambio iónico",
+    "pronunciation": "ion ekskjange",
+    "exampleEn": "Ion exchange removes impurities from the solution.",
+    "exampleEs": "El intercambio iónico elimina impurezas de la solución.",
+    "context": "Purificación de soluciones",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 131,
+    "english": "Lithium carbonate",
+    "spanish": "Carbonato de litio",
+    "pronunciation": "lizium karbonate",
+    "exampleEn": "Lithium carbonate is precipitated and dried.",
+    "exampleEs": "El carbonato de litio se precipita y se seca.",
+    "context": "Producto final del litio",
+    "area": "Hidrometalurgia"
+  },
+  {
+    "id": 132,
+    "english": "Electrowinning",
+    "spanish": "Electroobtención (EW)",
+    "pronunciation": "elektrauinning",
+    "exampleEn": "Electrowinning deposits copper on the cathodes.",
+    "exampleEs": "La electroobtención deposita cobre en los cátodos.",
+    "context": "Circuito SX-EW de cobre",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 133,
+    "english": "Cathode",
+    "spanish": "Cátodo",
+    "pronunciation": "kazode",
+    "exampleEn": "Copper cathodes are 99.99 percent pure.",
+    "exampleEs": "Los cátodos de cobre tienen 99,99 por ciento de pureza.",
+    "context": "Producto final del cobre",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 134,
+    "english": "Anode",
+    "spanish": "Ánodo",
+    "pronunciation": "anode",
+    "exampleEn": "The anode is made of a lead alloy.",
+    "exampleEs": "El ánodo está hecho de una aleación de plomo.",
+    "context": "Celda electrolítica",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 135,
+    "english": "Electrolyte",
+    "spanish": "Electrolito",
+    "pronunciation": "elektrolite",
+    "exampleEn": "The electrolyte flows through the cells continuously.",
+    "exampleEs": "El electrolito circula por las celdas de forma continua.",
+    "context": "Solución de la celda",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 136,
+    "english": "Electrorefining",
+    "spanish": "Electrorrefinación",
+    "pronunciation": "elektrorefining",
+    "exampleEn": "Electrorefining produces high-purity copper.",
+    "exampleEs": "La electrorrefinación produce cobre de alta pureza.",
+    "context": "Refinación de cobre",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 137,
+    "english": "Tankhouse",
+    "spanish": "Nave electrolítica",
+    "pronunciation": "tankjause",
+    "exampleEn": "Workers wear PPE inside the tankhouse.",
+    "exampleEs": "Los trabajadores usan EPP dentro de la nave electrolítica.",
+    "context": "Planta de EW",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 138,
+    "english": "Current density",
+    "spanish": "Densidad de corriente",
+    "pronunciation": "kurrent densiti",
+    "exampleEn": "Current density affects cathode quality.",
+    "exampleEs": "La densidad de corriente afecta la calidad del cátodo.",
+    "context": "Parámetro de operación",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 139,
+    "english": "Electrolytic cell",
+    "spanish": "Celda electrolítica",
+    "pronunciation": "elektrolitik kell",
+    "exampleEn": "Each electrolytic cell holds 60 cathodes.",
+    "exampleEs": "Cada celda electrolítica contiene 60 cátodos.",
+    "context": "Equipo de EW",
+    "area": "Electrometalurgia"
+  },
+  {
+    "id": 140,
+    "english": "Haul truck",
+    "spanish": "Camión de acarreo / Camión minero",
+    "pronunciation": "jaul trukk",
+    "exampleEn": "A haul truck carries 300 tonnes per load.",
+    "exampleEs": "Un camión de acarreo transporta 300 toneladas por viaje.",
+    "context": "Transporte de mineral y estéril",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 141,
+    "english": "Rope shovel",
+    "spanish": "Pala eléctrica de cable",
+    "pronunciation": "rope sjovel",
+    "exampleEn": "The rope shovel loads a truck in four passes.",
+    "exampleEs": "La pala eléctrica carga un camión en cuatro pases.",
+    "context": "Equipo de carguío",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 142,
+    "english": "Hydraulic excavator",
+    "spanish": "Excavadora hidráulica",
+    "pronunciation": "jidraulik ekskavator",
+    "exampleEn": "The hydraulic excavator works in selective zones.",
+    "exampleEs": "La excavadora hidráulica trabaja en zonas selectivas.",
+    "context": "Equipo de carguío",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 143,
+    "english": "Wheel loader",
+    "spanish": "Cargador frontal",
+    "pronunciation": "uil loader",
+    "exampleEn": "The wheel loader feeds the crusher from the stockpile.",
+    "exampleEs": "El cargador frontal alimenta el chancador desde el acopio.",
+    "context": "Equipo de carguío",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 144,
+    "english": "Bulldozer",
+    "spanish": "Bulldozer / Topadora",
+    "pronunciation": "bulldozer",
+    "exampleEn": "The bulldozer cleans the bench floor.",
+    "exampleEs": "El bulldozer limpia el piso del banco.",
+    "context": "Equipo auxiliar",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 145,
+    "english": "Motor grader",
+    "spanish": "Motoniveladora",
+    "pronunciation": "motor grader",
+    "exampleEn": "The motor grader maintains the haul road.",
+    "exampleEs": "La motoniveladora mantiene el camino de acarreo.",
+    "context": "Mantención de caminos",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 146,
+    "english": "Water truck",
+    "spanish": "Camión aljibe",
+    "pronunciation": "uater trukk",
+    "exampleEn": "Water trucks spray the roads to reduce dust.",
+    "exampleEs": "Los camiones aljibe riegan los caminos para reducir el polvo.",
+    "context": "Control de polvo",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 147,
+    "english": "Fuel truck",
+    "spanish": "Camión combustible",
+    "pronunciation": "fuel trukk",
+    "exampleEn": "The fuel truck refuels equipment in the pit.",
+    "exampleEs": "El camión combustible reabastece los equipos dentro del rajo.",
+    "context": "Equipo de apoyo",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 148,
+    "english": "Payload",
+    "spanish": "Carga útil",
+    "pronunciation": "peiload",
+    "exampleEn": "Trucks must not exceed the rated payload.",
+    "exampleEs": "Los camiones no deben exceder la carga útil nominal.",
+    "context": "Capacidad del camión",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 149,
+    "english": "Truck bed",
+    "spanish": "Tolva del camión",
+    "pronunciation": "trukk bed",
+    "exampleEn": "Rock remained stuck in the truck bed.",
+    "exampleEs": "Quedó roca atascada en la tolva del camión.",
+    "context": "Parte del camión",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 150,
+    "english": "Tire",
+    "spanish": "Neumático",
+    "pronunciation": "tire",
+    "exampleEn": "Mining tires cost more than a car.",
+    "exampleEs": "Los neumáticos mineros cuestan más que un auto.",
+    "context": "Insumo crítico de la flota",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 151,
+    "english": "Bucket",
+    "spanish": "Balde / Cucharón",
+    "pronunciation": "bukket",
+    "exampleEn": "The shovel bucket holds 40 tonnes.",
+    "exampleEs": "El cucharón de la pala tiene capacidad para 40 toneladas.",
+    "context": "Parte de pala y cargador",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 152,
+    "english": "Boom",
+    "spanish": "Pluma",
+    "pronunciation": "bum",
+    "exampleEn": "The boom of the excavator was inspected.",
+    "exampleEs": "Se inspeccionó la pluma de la excavadora.",
+    "context": "Parte de pala y excavadora",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 153,
+    "english": "Conveyor belt",
+    "spanish": "Correa transportadora / Cinta",
+    "pronunciation": "konveior belt",
+    "exampleEn": "The conveyor belt moves ore from the crusher.",
+    "exampleEs": "La correa transportadora lleva el mineral desde el chancador.",
+    "context": "Transporte continuo de mineral",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 154,
+    "english": "Apron feeder",
+    "spanish": "Alimentador de placas",
+    "pronunciation": "apron fider",
+    "exampleEn": "The apron feeder controls ore flow to the crusher.",
+    "exampleEs": "El alimentador de placas controla el flujo de mineral hacia el chancador.",
+    "context": "Alimentación de chancador",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 155,
+    "english": "Slurry pump",
+    "spanish": "Bomba de pulpa",
+    "pronunciation": "slurri pump",
+    "exampleEn": "The slurry pump was replaced after severe wear.",
+    "exampleEs": "La bomba de pulpa se reemplazó por desgaste severo.",
+    "context": "Transporte de pulpa",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 156,
+    "english": "Air pump",
+    "spanish": "Bomba de aire",
+    "pronunciation": "eir pump",
+    "exampleEn": "The air pump supplies the flotation cells.",
+    "exampleEs": "La bomba de aire alimenta las celdas de flotación.",
+    "context": "Equipos de planta y taller",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 157,
+    "english": "Compressor",
+    "spanish": "Compresor",
+    "pronunciation": "kompressor",
+    "exampleEn": "The compressor powers the pneumatic tools.",
+    "exampleEs": "El compresor alimenta las herramientas neumáticas.",
+    "context": "Aire comprimido",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 158,
+    "english": "Generator",
+    "spanish": "Generador",
+    "pronunciation": "generator",
+    "exampleEn": "A generator supplies power to the remote camp.",
+    "exampleEs": "Un generador provee energía al campamento remoto.",
+    "context": "Energía en faena remota",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 159,
+    "english": "Hydraulic hose",
+    "spanish": "Manguera hidráulica",
+    "pronunciation": "jidraulik jose",
+    "exampleEn": "A hydraulic hose burst on the excavator.",
+    "exampleEs": "Reventó una manguera hidráulica en la excavadora.",
+    "context": "Mantención",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 160,
+    "english": "Engine",
+    "spanish": "Motor",
+    "pronunciation": "engine",
+    "exampleEn": "The engine was overhauled at 20,000 hours.",
+    "exampleEs": "El motor se reparó al llegar a las 20.000 horas.",
+    "context": "Equipos móviles",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 161,
+    "english": "Transmission",
+    "spanish": "Transmisión",
+    "pronunciation": "transmissjon",
+    "exampleEn": "The transmission needs an oil change.",
+    "exampleEs": "La transmisión necesita cambio de aceite.",
+    "context": "Equipos móviles",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 162,
+    "english": "Light vehicle",
+    "spanish": "Vehículo liviano / Camioneta",
+    "pronunciation": "lait vejikle",
+    "exampleEn": "Light vehicles must have a flag and a beacon.",
+    "exampleEs": "Los vehículos livianos deben tener bandera y baliza.",
+    "context": "Tránsito en mina",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 163,
+    "english": "Tire handler",
+    "spanish": "Manipulador de neumáticos",
+    "pronunciation": "tire jandler",
+    "exampleEn": "The tire handler changes truck tires safely.",
+    "exampleEs": "El manipulador de neumáticos cambia los neumáticos de los camiones de forma segura.",
+    "context": "Equipo de apoyo",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 164,
+    "english": "Tailings",
+    "spanish": "Relaves",
+    "pronunciation": "teilings",
+    "exampleEn": "Tailings are pumped to the storage facility.",
+    "exampleEs": "Los relaves se bombean al depósito de almacenamiento.",
+    "context": "Residuo de la planta",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 165,
+    "english": "Tailings storage facility",
+    "spanish": "Depósito de relaves",
+    "pronunciation": "teilings storage fakiliti",
+    "exampleEn": "The tailings storage facility is monitored daily.",
+    "exampleEs": "El depósito de relaves se monitorea a diario.",
+    "context": "Gestión de residuos",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 166,
+    "english": "Dewatering",
+    "spanish": "Desaguado / Drenaje de mina",
+    "pronunciation": "deuatering",
+    "exampleEn": "Dewatering lowers the water level around the pit.",
+    "exampleEs": "El desaguado baja el nivel del agua alrededor del rajo.",
+    "context": "Control del agua en el rajo",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 167,
+    "english": "Sump",
+    "spanish": "Sumidero / Poza de drenaje",
+    "pronunciation": "sump",
+    "exampleEn": "Water collects in the sump at the pit floor.",
+    "exampleEs": "El agua se acumula en el sumidero del piso del rajo.",
+    "context": "Recolección de agua en rajo",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 168,
+    "english": "Groundwater",
+    "spanish": "Agua subterránea",
+    "pronunciation": "graunduater",
+    "exampleEn": "Groundwater is monitored by wells around the site.",
+    "exampleEs": "El agua subterránea se monitorea con pozos alrededor de la faena.",
+    "context": "Hidrogeología",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 169,
+    "english": "Acid mine drainage",
+    "spanish": "Drenaje ácido de mina",
+    "pronunciation": "akid mine dreinage",
+    "exampleEn": "Acid mine drainage must be treated before discharge.",
+    "exampleEs": "El drenaje ácido de mina debe tratarse antes de su descarga.",
+    "context": "Riesgo ambiental",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 170,
+    "english": "Dust suppression",
+    "spanish": "Supresión de polvo",
+    "pronunciation": "dust suppressjon",
+    "exampleEn": "Dust suppression is required on all haul roads.",
+    "exampleEs": "La supresión de polvo es obligatoria en todos los caminos de acarreo.",
+    "context": "Control ambiental",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 171,
+    "english": "Reclamation",
+    "spanish": "Recuperación de terrenos",
+    "pronunciation": "reklamasjon",
+    "exampleEn": "Reclamation starts as soon as a dump is complete.",
+    "exampleEs": "La recuperación de terrenos comienza apenas se termina un botadero.",
+    "context": "Cierre progresivo",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 172,
+    "english": "Mine closure",
+    "spanish": "Cierre de mina",
+    "pronunciation": "mine klosure",
+    "exampleEn": "The mine closure plan was submitted to the authority.",
+    "exampleEs": "El plan de cierre de mina fue presentado a la autoridad.",
+    "context": "Plan de cierre",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 173,
+    "english": "Environmental impact assessment",
+    "spanish": "Evaluación de impacto ambiental",
+    "pronunciation": "environmental impakt assessment",
+    "exampleEn": "The environmental impact assessment was approved.",
+    "exampleEs": "La evaluación de impacto ambiental fue aprobada.",
+    "context": "Permisos de proyecto",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 174,
+    "english": "Runoff",
+    "spanish": "Escorrentía",
+    "pronunciation": "runoff",
+    "exampleEn": "Sediment ponds control the runoff.",
+    "exampleEs": "Las piscinas de sedimentación controlan la escorrentía.",
+    "context": "Manejo de aguas lluvia",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 175,
+    "english": "Evaporation pond",
+    "spanish": "Piscina de evaporación",
+    "pronunciation": "evaporasjon pond",
+    "exampleEn": "Brine is concentrated in an evaporation pond.",
+    "exampleEs": "La salmuera se concentra en una piscina de evaporación.",
+    "context": "Litio en salares",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 176,
+    "english": "Settling pond",
+    "spanish": "Piscina de sedimentación",
+    "pronunciation": "settling pond",
+    "exampleEn": "The settling pond removes solids from the water.",
+    "exampleEs": "La piscina de sedimentación remueve sólidos del agua.",
+    "context": "Tratamiento de aguas",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 177,
+    "english": "Water balance",
+    "spanish": "Balance hídrico",
+    "pronunciation": "uater balanke",
+    "exampleEn": "The water balance shows a shortage in dry months.",
+    "exampleEs": "El balance hídrico muestra un déficit en los meses secos.",
+    "context": "Gestión del agua",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 178,
+    "english": "Discharge",
+    "spanish": "Descarga / Vertido",
+    "pronunciation": "diskjarge",
+    "exampleEn": "Discharge must meet permit limits.",
+    "exampleEs": "La descarga debe cumplir los límites del permiso.",
+    "context": "Cumplimiento ambiental",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 179,
+    "english": "Capital expenditure",
+    "spanish": "Inversión de capital (CAPEX)",
+    "pronunciation": "kapital ekspendikjer",
+    "exampleEn": "The capital expenditure for the project is high.",
+    "exampleEs": "La inversión de capital del proyecto es alta.",
+    "context": "Evaluación económica",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 180,
+    "english": "Operating expenditure",
+    "spanish": "Costo operativo (OPEX)",
+    "pronunciation": "operating ekspendikjer",
+    "exampleEn": "Operating expenditure per tonne fell this year.",
+    "exampleEs": "El costo operativo por tonelada bajó este año.",
+    "context": "Evaluación económica",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 181,
+    "english": "Net present value",
+    "spanish": "Valor actual neto (VAN)",
+    "pronunciation": "net present valu",
+    "exampleEn": "The project has a positive net present value.",
+    "exampleEs": "El proyecto tiene un valor actual neto positivo.",
+    "context": "Evaluación económica",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 182,
+    "english": "Internal rate of return",
+    "spanish": "Tasa interna de retorno (TIR)",
+    "pronunciation": "internal rate of return",
+    "exampleEn": "The internal rate of return is 18 percent.",
+    "exampleEs": "La tasa interna de retorno es de 18 por ciento.",
+    "context": "Evaluación económica",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 183,
+    "english": "Feasibility study",
+    "spanish": "Estudio de factibilidad",
+    "pronunciation": "fisibiliti studi",
+    "exampleEn": "The feasibility study confirmed the project is viable.",
+    "exampleEs": "El estudio de factibilidad confirmó que el proyecto es viable.",
+    "context": "Etapa de desarrollo",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 184,
+    "english": "Royalty",
+    "spanish": "Regalía",
+    "pronunciation": "roialti",
+    "exampleEn": "The royalty is paid on net sales.",
+    "exampleEs": "La regalía se paga sobre las ventas netas.",
+    "context": "Pagos al Estado o propietario",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 185,
+    "english": "Commodity price",
+    "spanish": "Precio del commodity",
+    "pronunciation": "kommoditi prike",
+    "exampleEn": "Commodity price swings affect the cut-off grade.",
+    "exampleEs": "Las variaciones del precio del commodity afectan la ley de corte.",
+    "context": "Mercado de cobre, oro, litio",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 186,
+    "english": "Cash cost",
+    "spanish": "Costo directo / Cash cost",
+    "pronunciation": "kasj kost",
+    "exampleEn": "The cash cost per pound of copper decreased.",
+    "exampleEs": "El costo directo por libra de cobre disminuyó.",
+    "context": "Indicador de competitividad",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 187,
+    "english": "Shift",
+    "spanish": "Turno",
+    "pronunciation": "sjift",
+    "exampleEn": "The night shift starts at 7 p.m.",
+    "exampleEs": "El turno noche comienza a las 7 p. m.",
+    "context": "Organización del trabajo",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 188,
+    "english": "Hazard",
+    "spanish": "Peligro",
+    "pronunciation": "jazard",
+    "exampleEn": "Every hazard must be reported before work starts.",
+    "exampleEs": "Todo peligro debe reportarse antes de iniciar el trabajo.",
+    "context": "Seguridad y salud ocupacional",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 189,
+    "english": "Permit to work",
+    "spanish": "Permiso de trabajo",
+    "pronunciation": "permit to uork",
+    "exampleEn": "A permit to work is required for confined spaces.",
+    "exampleEs": "Se requiere un permiso de trabajo para espacios confinados.",
+    "context": "Control de actividades críticas",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 190,
+    "english": "Contractor",
+    "spanish": "Contratista",
+    "pronunciation": "kontraktor",
+    "exampleEn": "The contractor handles the haul road maintenance.",
+    "exampleEs": "El contratista se encarga de la mantención de los caminos de acarreo.",
+    "context": "Servicios mineros",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 191,
+    "english": "Fleet management system",
+    "spanish": "Sistema de gestión de flota",
+    "pronunciation": "flit management sistem",
+    "exampleEn": "The fleet management system assigns trucks to shovels.",
+    "exampleEs": "El sistema de gestión de flota asigna camiones a las palas.",
+    "context": "Despacho de equipos",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 192,
+    "english": "Key performance indicator",
+    "spanish": "Indicador clave de desempeño (KPI)",
+    "pronunciation": "kei performanke indikator",
+    "exampleEn": "Truck availability is a key performance indicator.",
+    "exampleEs": "La disponibilidad de camiones es un indicador clave de desempeño.",
+    "context": "Seguimiento operacional",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 193,
+    "english": "Preventive maintenance",
+    "spanish": "Mantenimiento preventivo",
+    "pronunciation": "preventive meintenanke",
+    "exampleEn": "Preventive maintenance reduces unplanned stops.",
+    "exampleEs": "El mantenimiento preventivo reduce las detenciones no planificadas.",
+    "context": "Gestión de activos",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 194,
+    "english": "Production report",
+    "spanish": "Reporte de producción",
+    "pronunciation": "produksjon report",
+    "exampleEn": "The production report is sent after each shift.",
+    "exampleEs": "El reporte de producción se envía después de cada turno.",
+    "context": "Control de gestión",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 195,
+    "english": "Earthworks",
+    "spanish": "Movimiento de tierras",
+    "pronunciation": "irzuorks",
+    "exampleEn": "Earthworks for the new pad finished in May.",
+    "exampleEs": "Los movimientos de tierra de la nueva cancha terminaron en mayo.",
+    "context": "Obras civiles de la faena",
+    "area": "Construcción"
+  },
+  {
+    "id": 196,
+    "english": "Embankment",
+    "spanish": "Terraplén",
+    "pronunciation": "embankment",
+    "exampleEn": "The embankment was built with compacted waste rock.",
+    "exampleEs": "El terraplén se construyó con roca estéril compactada.",
+    "context": "Obras civiles",
+    "area": "Construcción"
+  },
+  {
+    "id": 197,
+    "english": "Foundation",
+    "spanish": "Fundación / Cimentación",
+    "pronunciation": "faundasjon",
+    "exampleEn": "The mill foundation required heavy concrete.",
+    "exampleEs": "La fundación del molino requirió hormigón pesado.",
+    "context": "Obras de planta",
+    "area": "Construcción"
+  },
+  {
+    "id": 198,
+    "english": "Retaining wall",
+    "spanish": "Muro de contención",
+    "pronunciation": "reteining uall",
+    "exampleEn": "A retaining wall protects the crusher station.",
+    "exampleEs": "Un muro de contención protege la estación del chancador.",
+    "context": "Obras civiles",
+    "area": "Construcción"
+  },
+  {
+    "id": 199,
+    "english": "Culvert",
+    "spanish": "Alcantarilla / Ducto de drenaje",
+    "pronunciation": "kulvert",
+    "exampleEn": "A culvert passes water under the haul road.",
+    "exampleEs": "Una alcantarilla pasa el agua bajo el camino de acarreo.",
+    "context": "Caminos y drenaje",
+    "area": "Construcción"
+  },
+  {
+    "id": 200,
+    "english": "Compaction",
+    "spanish": "Compactación",
+    "pronunciation": "kompaksjon",
+    "exampleEn": "Road base compaction was verified by testing.",
+    "exampleEs": "Se verificó con ensayos la compactación de la base del camino.",
+    "context": "Construcción de caminos y pilas",
+    "area": "Construcción"
+  },
+  {
+    "id": 201,
+    "english": "Pit shell",
+    "spanish": "Envolvente de rajo / Cascarón de pit",
+    "pronunciation": "pit sjell",
+    "exampleEn": "Each pit shell represents a different metal price.",
+    "exampleEs": "Cada envolvente de rajo representa un precio de metal distinto.",
+    "context": "Optimización de límites del rajo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 202,
+    "english": "Nested pit shells",
+    "spanish": "Envolventes de rajo anidadas",
+    "pronunciation": "nested pit sjells",
+    "exampleEn": "Nested pit shells guide the mining sequence.",
+    "exampleEs": "Las envolventes anidadas guían la secuencia de explotación.",
+    "context": "Planificación de fases",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 203,
+    "english": "Pit optimization",
+    "spanish": "Optimización del rajo",
+    "pronunciation": "pit optimizasjon",
+    "exampleEn": "Pit optimization was run at three gold prices.",
+    "exampleEs": "La optimización del rajo se corrió con tres precios del oro.",
+    "context": "Planificación minera",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 204,
+    "english": "Life of mine",
+    "spanish": "Vida de la mina (LOM)",
+    "pronunciation": "life of mine",
+    "exampleEn": "The life of mine plan covers 18 years.",
+    "exampleEs": "El plan de vida de la mina cubre 18 años.",
+    "context": "Planificación de largo plazo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 205,
+    "english": "Selective mining",
+    "spanish": "Minería selectiva",
+    "pronunciation": "selektive mining",
+    "exampleEn": "Selective mining reduces dilution in narrow veins.",
+    "exampleEs": "La minería selectiva reduce la dilución en vetas angostas.",
+    "context": "Extracción de mineral",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 206,
+    "english": "Dilution",
+    "spanish": "Dilución",
+    "pronunciation": "dilusjon",
+    "exampleEn": "Dilution lowers the grade delivered to the plant.",
+    "exampleEs": "La dilución baja la ley que llega a la planta.",
+    "context": "Pérdida de ley por mezcla con estéril",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 207,
+    "english": "Short-term mine plan",
+    "spanish": "Plan minero de corto plazo",
+    "pronunciation": "sjort-term mine plan",
+    "exampleEn": "The short-term mine plan is updated every week.",
+    "exampleEs": "El plan minero de corto plazo se actualiza cada semana.",
+    "context": "Planificación operativa",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 208,
+    "english": "Backfill",
+    "spanish": "Relleno",
+    "pronunciation": "bakkfill",
+    "exampleEn": "Waste rock is used as backfill in the mined-out pit.",
+    "exampleEs": "La roca estéril se usa como relleno en el rajo agotado.",
+    "context": "Disposición de estéril",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 209,
+    "english": "Spoil pile",
+    "spanish": "Pila de estéril",
+    "pronunciation": "spoil pile",
+    "exampleEn": "The spoil pile was reshaped for closure.",
+    "exampleEs": "La pila de estéril se remodeló para el cierre.",
+    "context": "Disposición de estéril",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 210,
+    "english": "Placer mining",
+    "spanish": "Minería de placer",
+    "pronunciation": "plaker mining",
+    "exampleEn": "Placer mining recovers gold from alluvial gravels.",
+    "exampleEs": "La minería de placer recupera oro de gravas aluviales.",
+    "context": "Oro aluvial",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 211,
+    "english": "Mine planner",
+    "spanish": "Planificador minero",
+    "pronunciation": "mine planner",
+    "exampleEn": "The mine planner adjusted the sequence of benches.",
+    "exampleEs": "El planificador minero ajustó la secuencia de bancos.",
+    "context": "Rol de planificación",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 212,
+    "english": "Pit wall",
+    "spanish": "Pared del rajo",
+    "pronunciation": "pit uall",
+    "exampleEn": "The pit wall was scaled after the blast.",
+    "exampleEs": "La pared del rajo se desquinchó después de la tronadura.",
+    "context": "Diseño y seguridad del rajo",
+    "area": "Rajo Abierto"
+  },
+  {
+    "id": 213,
+    "english": "Wearing course",
+    "spanish": "Capa de rodado",
+    "pronunciation": "uiring kaurse",
+    "exampleEn": "The wearing course was regraded after the rainy season.",
+    "exampleEs": "La capa de rodado se reperfiló después de la temporada de lluvias.",
+    "context": "Superficie del camino de acarreo",
+    "area": "Construcción"
+  },
+  {
+    "id": 214,
+    "english": "Superelevation",
+    "spanish": "Peralte",
+    "pronunciation": "superelevasjon",
+    "exampleEn": "Superelevation helps trucks take curves safely.",
+    "exampleEs": "El peralte ayuda a los camiones a tomar las curvas con seguridad.",
+    "context": "Diseño de caminos",
+    "area": "Construcción"
+  },
+  {
+    "id": 215,
+    "english": "Cross slope",
+    "spanish": "Pendiente transversal / Bombeo",
+    "pronunciation": "kross slope",
+    "exampleEn": "The cross slope drains water to the ditch.",
+    "exampleEs": "La pendiente transversal lleva el agua a la cuneta.",
+    "context": "Diseño de caminos",
+    "area": "Construcción"
+  },
+  {
+    "id": 216,
+    "english": "Ditch",
+    "spanish": "Cuneta / Zanja de drenaje",
+    "pronunciation": "ditkj",
+    "exampleEn": "The ditch was cleaned before the storm.",
+    "exampleEs": "La cuneta se limpió antes de la tormenta.",
+    "context": "Drenaje de caminos",
+    "area": "Construcción"
+  },
+  {
+    "id": 217,
+    "english": "Runaway lane",
+    "spanish": "Ruta de escape / Cama de frenado",
+    "pronunciation": "runauei lane",
+    "exampleEn": "A runaway lane is built on long downhill ramps.",
+    "exampleEs": "Se construye una ruta de escape en rampas largas de bajada.",
+    "context": "Seguridad en caminos",
+    "area": "Construcción"
+  },
+  {
+    "id": 218,
+    "english": "Windrow",
+    "spanish": "Berma de seguridad (pretil)",
+    "pronunciation": "uindrau",
+    "exampleEn": "The windrow must be at least half the tire height.",
+    "exampleEs": "El pretil debe tener al menos la mitad de la altura del neumático.",
+    "context": "Seguridad en caminos",
+    "area": "Construcción"
+  },
+  {
+    "id": 219,
+    "english": "Road grade",
+    "spanish": "Pendiente del camino",
+    "pronunciation": "road grade",
+    "exampleEn": "The maximum road grade is 10 percent.",
+    "exampleEs": "La pendiente máxima del camino es de 10 por ciento.",
+    "context": "Diseño de caminos",
+    "area": "Construcción"
+  },
+  {
+    "id": 220,
+    "english": "Subgrade",
+    "spanish": "Subrasante",
+    "pronunciation": "subgrade",
+    "exampleEn": "The subgrade was compacted before placing gravel.",
+    "exampleEs": "La subrasante se compactó antes de colocar la grava.",
+    "context": "Estructura del camino",
+    "area": "Construcción"
+  },
+  {
+    "id": 221,
+    "english": "Bearing capacity",
+    "spanish": "Capacidad de soporte",
+    "pronunciation": "biring kapakiti",
+    "exampleEn": "Bearing capacity tests were done on the pad.",
+    "exampleEs": "Se hicieron ensayos de capacidad de soporte en la cancha.",
+    "context": "Obras civiles y geotecnia",
+    "area": "Construcción"
+  },
+  {
+    "id": 222,
+    "english": "Aggregate",
+    "spanish": "Áridos / Agregados",
+    "pronunciation": "aggregate",
+    "exampleEn": "Crushed aggregate is used for road surfacing.",
+    "exampleEs": "Se usan áridos chancados para la superficie del camino.",
+    "context": "Material de construcción",
+    "area": "Construcción"
+  },
+  {
+    "id": 223,
+    "english": "Rolling resistance",
+    "spanish": "Resistencia a la rodadura",
+    "pronunciation": "rolling resistanke",
+    "exampleEn": "Poor road condition raises rolling resistance.",
+    "exampleEs": "El mal estado del camino aumenta la resistencia a la rodadura.",
+    "context": "Rendimiento de camiones",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 224,
+    "english": "Cycle time",
+    "spanish": "Tiempo de ciclo",
+    "pronunciation": "kikle time",
+    "exampleEn": "Truck cycle time was reduced by two minutes.",
+    "exampleEs": "El tiempo de ciclo de los camiones se redujo en dos minutos.",
+    "context": "Productividad de flota",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 225,
+    "english": "Dragline",
+    "spanish": "Dragalina",
+    "pronunciation": "dragline",
+    "exampleEn": "The dragline removes overburden in large strips.",
+    "exampleEs": "La dragalina remueve la sobrecarga en franjas grandes.",
+    "context": "Equipo de movimiento de estéril",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 226,
+    "english": "Bucket-wheel excavator",
+    "spanish": "Excavadora de rueda de cangilones",
+    "pronunciation": "bukket-uil ekskavator",
+    "exampleEn": "A bucket-wheel excavator digs soft material continuously.",
+    "exampleEs": "Una excavadora de rueda de cangilones excava material blando de forma continua.",
+    "context": "Excavación continua",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 227,
+    "english": "In-pit crushing and conveying",
+    "spanish": "Chancado y transporte por correa dentro del rajo (IPCC)",
+    "pronunciation": "in-pit krusjing and konveiing",
+    "exampleEn": "In-pit crushing and conveying replaces long truck hauls.",
+    "exampleEs": "El chancado y transporte dentro del rajo reemplaza los acarreos largos en camión.",
+    "context": "Alternativa al camión",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 228,
+    "english": "Scraper",
+    "spanish": "Moto-traílla / Scraper",
+    "pronunciation": "skraper",
+    "exampleEn": "The scraper strips topsoil before mining.",
+    "exampleEs": "La moto-traílla retira la capa de suelo antes de minar.",
+    "context": "Movimiento de tierra",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 229,
+    "english": "Ripper",
+    "spanish": "Ripper / Desgarrador",
+    "pronunciation": "ripper",
+    "exampleEn": "The ripper breaks soft rock without blasting.",
+    "exampleEs": "El ripper rompe roca blanda sin tronadura.",
+    "context": "Fragmentación sin explosivos",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 230,
+    "english": "Autonomous haulage system",
+    "spanish": "Sistema de acarreo autónomo",
+    "pronunciation": "autonomaus jaulage sistem",
+    "exampleEn": "Autonomous haulage systems operate without drivers.",
+    "exampleEs": "Los sistemas de acarreo autónomo operan sin conductores.",
+    "context": "Automatización de flota",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 231,
+    "english": "Equipment availability",
+    "spanish": "Disponibilidad de equipos",
+    "pronunciation": "ekuipment aveilabiliti",
+    "exampleEn": "Equipment availability reached 92 percent.",
+    "exampleEs": "La disponibilidad de equipos llegó a 92 por ciento.",
+    "context": "Indicador de mantenimiento",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 232,
+    "english": "Fuel consumption",
+    "spanish": "Consumo de combustible",
+    "pronunciation": "fuel konsumpsjon",
+    "exampleEn": "Fuel consumption per tonne moved decreased.",
+    "exampleEs": "El consumo de combustible por tonelada movida disminuyó.",
+    "context": "Costos de flota",
+    "area": "Equipos Mineros"
+  },
+  {
+    "id": 233,
+    "english": "Shear strength",
+    "spanish": "Resistencia al corte",
+    "pronunciation": "sjir strengz",
+    "exampleEn": "Shear strength of the soil controls dump stability.",
+    "exampleEs": "La resistencia al corte del suelo controla la estabilidad del botadero.",
+    "context": "Parámetro geotécnico",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 234,
+    "english": "Rock mass classification",
+    "spanish": "Clasificación del macizo rocoso",
+    "pronunciation": "rokk mass klassifikasjon",
+    "exampleEn": "Rock mass classification guides the bench design.",
+    "exampleEs": "La clasificación del macizo rocoso guía el diseño de bancos.",
+    "context": "Geotecnia de rajo",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 235,
+    "english": "Bench face angle",
+    "spanish": "Ángulo de cara de banco",
+    "pronunciation": "benkj fake angle",
+    "exampleEn": "The bench face angle is 70 degrees.",
+    "exampleEs": "El ángulo de cara de banco es de 70 grados.",
+    "context": "Diseño de bancos",
+    "area": "Geomecánica y Geotecnia"
+  },
+  {
+    "id": 236,
+    "english": "Surface water",
+    "spanish": "Agua superficial",
+    "pronunciation": "surfake uater",
+    "exampleEn": "Surface water is diverted around the pit.",
+    "exampleEs": "El agua superficial se desvía alrededor del rajo.",
+    "context": "Manejo de agua",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 237,
+    "english": "Stormwater",
+    "spanish": "Aguas lluvia",
+    "pronunciation": "stormuater",
+    "exampleEn": "Stormwater ponds protect the haul road.",
+    "exampleEs": "Las piscinas de aguas lluvia protegen el camino de acarreo.",
+    "context": "Manejo de agua",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 238,
+    "english": "Tailings dam",
+    "spanish": "Muro de relaves",
+    "pronunciation": "teilings dam",
+    "exampleEn": "The tailings dam is raised every year.",
+    "exampleEs": "El muro de relaves se levanta cada año.",
+    "context": "Seguridad de relaves",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 239,
+    "english": "Water management plan",
+    "spanish": "Plan de manejo de agua",
+    "pronunciation": "uater management plan",
+    "exampleEn": "The water management plan was updated for the dry season.",
+    "exampleEs": "El plan de manejo de agua se actualizó para la temporada seca.",
+    "context": "Gestión hídrica",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 240,
+    "english": "Mine waste",
+    "spanish": "Residuos mineros",
+    "pronunciation": "mine uaste",
+    "exampleEn": "Mine waste is classified before disposal.",
+    "exampleEs": "Los residuos mineros se clasifican antes de su disposición.",
+    "context": "Gestión ambiental",
+    "area": "Medio Ambiente y Agua"
+  },
+  {
+    "id": 241,
+    "english": "Risk management",
+    "spanish": "Gestión de riesgos",
+    "pronunciation": "risk management",
+    "exampleEn": "Risk management is reviewed at every safety meeting.",
+    "exampleEs": "La gestión de riesgos se revisa en cada reunión de seguridad.",
+    "context": "Seguridad y proyectos",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 242,
+    "english": "Asset management",
+    "spanish": "Gestión de activos",
+    "pronunciation": "asset management",
+    "exampleEn": "Asset management extends the life of the fleet.",
+    "exampleEs": "La gestión de activos extiende la vida útil de la flota.",
+    "context": "Mantenimiento y finanzas",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 243,
+    "english": "Continuous improvement",
+    "spanish": "Mejora continua",
+    "pronunciation": "kontinuaus improvement",
+    "exampleEn": "Continuous improvement cut truck queue time.",
+    "exampleEs": "La mejora continua redujo el tiempo de fila de los camiones.",
+    "context": "Gestión operacional",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 244,
+    "english": "Change management",
+    "spanish": "Gestión del cambio",
+    "pronunciation": "kjange management",
+    "exampleEn": "Change management helped the crew adopt the new system.",
+    "exampleEs": "La gestión del cambio ayudó al equipo a adoptar el nuevo sistema.",
+    "context": "Implementación de tecnología",
+    "area": "Gestión y Administración"
+  },
+  {
+    "id": 245,
+    "english": "Drone survey",
+    "spanish": "Levantamiento con dron",
+    "pronunciation": "drone survei",
+    "exampleEn": "A drone survey measures the stockpile volume.",
+    "exampleEs": "Un levantamiento con dron mide el volumen del acopio.",
+    "context": "Topografía de mina",
+    "area": "Evaluación de Yacimientos"
+  },
+  {
+    "id": 246,
+    "english": "Blast design",
+    "spanish": "Diseño de tronadura",
+    "pronunciation": "blast design",
+    "exampleEn": "The blast design was changed to reduce vibration.",
+    "exampleEs": "El diseño de tronadura se cambió para reducir la vibración.",
+    "context": "Planificación de tronaduras",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 247,
+    "english": "Ground vibration",
+    "spanish": "Vibración del terreno",
+    "pronunciation": "graund vibrasjon",
+    "exampleEn": "Ground vibration is monitored near the town.",
+    "exampleEs": "La vibración del terreno se monitorea cerca del pueblo.",
+    "context": "Control ambiental de tronaduras",
+    "area": "Perforación y Tronadura"
+  },
+  {
+    "id": 248,
+    "english": "Particle size distribution",
+    "spanish": "Distribución granulométrica",
+    "pronunciation": "partikle size distribusjon",
+    "exampleEn": "The particle size distribution defines the mill feed.",
+    "exampleEs": "La distribución granulométrica define la alimentación del molino.",
+    "context": "Control de fragmentación",
+    "area": "Chancado y Molienda"
+  },
+  {
+    "id": 249,
+    "english": "Economic evaluation",
+    "spanish": "Evaluación económica",
+    "pronunciation": "ekonomik evaluasjon",
+    "exampleEn": "The economic evaluation includes metal price scenarios.",
+    "exampleEs": "La evaluación económica incluye escenarios de precio del metal.",
+    "context": "Estudios de proyecto",
+    "area": "Economía Minera"
+  },
+  {
+    "id": 250,
+    "english": "Sensitivity analysis",
+    "spanish": "Análisis de sensibilidad",
+    "pronunciation": "sensitiviti analisis",
+    "exampleEn": "Sensitivity analysis shows the effect of copper price on NPV.",
+    "exampleEs": "El análisis de sensibilidad muestra el efecto del precio del cobre en el VAN.",
+    "context": "Evaluación económica",
+    "area": "Economía Minera"
+  }
+]
